@@ -12,9 +12,6 @@ export class Register extends React.Component {
         <div className="base-container"ref={this.props.containerRef}>
             <div className="header">Register</div>
             <div className="content">
-            <div className="image">
-                    <img src={loginImg}/>
-                </div>
                 <div className="form">
                     <div className="form-group">
                         <label htmlFor="username">UserName</label>
@@ -25,8 +22,8 @@ export class Register extends React.Component {
                         <input type="email" name="email" placeholder="email"/>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="cpf">Cpf</label>
-                        <input type="cpf" name="cpf" placeholder="cpf"/>
+                        <label htmlFor="cpf">CPF</label>
+                        <input type="CPF" name="CPF" placeholder="CPF"/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="password">Password</label>

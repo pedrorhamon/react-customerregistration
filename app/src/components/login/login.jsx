@@ -13,7 +13,8 @@ export class Login extends React.Component {
             <div className="header">Login</div>
             <div className="content">
                 <div className="image">
-                    <img src={loginImg}/>
+                <img
+                    src="https://freedesignfile.com/upload/2017/08/uranus-icon-vector.png" alt="logo app" />
                 </div>
                 <div className="form">
                     <div className="form-group">
