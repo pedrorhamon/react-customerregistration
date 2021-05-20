@@ -1,7 +1,6 @@
-import React from 'react';
-import loginImg from './logo.svg';
+import React from 'react'
 
-export class Register extends React.Component {
+export class Home extends React.Component {
 
     constructor(props){
         super(props)
@@ -10,7 +9,7 @@ export class Register extends React.Component {
     render(){
         return ( 
         <div className="base-container"ref={this.props.containerRef}>
-            <div className="header">Register</div>
+            <div className="header">User</div>
             <div className="content">
                 <div className="form">
                     <div className="form-group">
@@ -18,27 +17,23 @@ export class Register extends React.Component {
                         <input type="text" name="username" placeholder="username"/>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="email">Email</label>
+                        <label htmlFor="deascricao">Descricao</label>
                         <input type="email" name="email" placeholder="email"/>
                     </div>
                     <div className="form-group">
-                        <label htmlFor="cpf">CPF</label>
-                        <input type="CPF" name="CPF" placeholder="CPF"/>
-                    </div>
-                    <div className="form-group">
-                        <label htmlFor="password">Password</label>
-                        <input type="password" name="password" placeholder="password"/>
+                        <label htmlFor="foto">Foto</label>
+                        <input type="foto" name="foto" placeholder="foto"/>
                     </div>
                 </div>
             </div>
             <div className="footer">
-                <button type="button" className="btn">
-                    Register
-                </button>
+                <span type="button" className="btn">
+                    Sair
+                </span>
             </div>
         </div>
         )
     }
 }
 
-export default Register;
+export default Home;
